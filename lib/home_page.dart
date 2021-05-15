@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                 final snackBar = SnackBar(
                   content: Text("'$item' removed"),
                   action: SnackBarAction(
-                    label: 'Dissmiss',
+                    label: 'Dismiss',
                     textColor: Colors.yellow,
                     onPressed: () {
                       ScaffoldMessenger.of(context).hideCurrentSnackBar();
